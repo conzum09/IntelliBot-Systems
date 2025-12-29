@@ -65,6 +65,7 @@
       font-size: 0.95rem;
       opacity: 0.9;
       animation: float 3s ease-in-out infinite;
+      z-index: 9999;
     }
 
     @keyframes float {
@@ -80,7 +81,7 @@
   <div class="container">
     <h1>Welcome to Folk Coffee</h1>
     <p>
-      Have a question or want to place an order?  
+      Have a question or want to place an order  
       Just tap the chat bubble in the bottom‑right corner — our assistant is ready to help.
     </p>
 
@@ -88,9 +89,10 @@
   </div>
 
   <div class="bot-hint">
-    👋 Need help? Chat with us!
+    👋 Need help Chat with us!
   </div>
 
+  <!-- Your Botpress widget -->
   <script>
     window.botpress.init({
       "botId": "554532cd-4085-498a-803e-2f998c5952bf",
